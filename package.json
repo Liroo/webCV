@@ -30,5 +30,16 @@
         "react": "^15.1.0",
         "react-dom": "^15.1.0",
         "webpack": "^1.13.1"
+    },
+    "devDependencies": {
+        "cz-customizable": "^4.0.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "node_modules/cz-customizable"
+        },
+        "cz-customizable": {
+            "config": ".cz-custom-config.js"
+        }
     }
 }
